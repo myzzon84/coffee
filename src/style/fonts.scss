@@ -1,0 +1,49 @@
+@mixin merienda4001217 {
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+@mixin merienda4001420 {
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@mixin merienda4002435 {
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+/////////////////////////////////////////////////
+
+@mixin merienda7001420 {
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@mixin merienda7002435 {
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+@mixin merienda7004058 {
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+}

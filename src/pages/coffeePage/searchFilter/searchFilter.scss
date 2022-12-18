@@ -1,0 +1,51 @@
+@import "../../../style/fonts.scss";
+
+.searchFilterWrapper {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+
+    .lookiingFor {
+        @include merienda4001420;
+        margin-right: 19px;
+    }
+
+    .input {
+        width: 180px;
+        height: 30px;
+        @include merienda4001217;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        background: #ffffff;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        border: none;
+    }
+
+    .filter {
+        @include merienda4001420;
+        color: #000000;
+        margin-right: 20px;
+    }
+
+    .btn {
+        @include merienda4001217;
+        width: 75px;
+        height: 30px;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+    }
+
+    .btnActive{
+        background: #6e6e6e;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../../style/fonts.scss';
+
+.ourBeansWrapper{
+    padding: 70px 0 0 0;
+
+    .body{
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    .text{
+        max-width: 346px;
+        @include merienda4001420;
+        color: #000000;
+        text-align: center;
+    }
+
+    .half{
+        width: 45%;
+    }
+
+    .image{
+        text-align: center;
+    }
+
+    .h2{
+        @include merienda4002435;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    hr{
+        width: 240px;
+        border: 1px solid black;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+}

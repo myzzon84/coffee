@@ -1,0 +1,19 @@
+@import '../../../style/fonts.scss';
+
+.heroWrapper1{
+    position: relative;
+    padding: 130px 0 71px 0;
+
+    .heroImage{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .h111{
+        @include merienda7004058;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}

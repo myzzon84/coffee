@@ -1,0 +1,57 @@
+@import '../../../style/fonts.scss';
+
+.aboutItemWrapper{
+    padding: 70px 280px 30px 280px;
+    display: flex;
+    justify-content: space-between;
+
+    .image{
+        width: 100%;
+        text-align: center;
+    }
+
+    .productImage{
+        width: 70%;
+    }
+
+    .content{
+        max-width: 418px;
+    }
+
+    .title{
+        text-align: center;
+        @include merienda4002435;
+        margin-bottom: 21px;
+    }
+
+    .imgContainer{
+        text-align: center;
+        margin-bottom: 26px;
+    }
+
+    .wordCountry,
+    .bold{
+        @include merienda7001420;
+    }
+
+    .countryName,
+    .description{
+        @include merienda4001420;
+    }
+
+    .countryInfo{
+        margin-bottom: 16px;
+    }
+
+    .description{
+        margin-bottom: 16px;
+    }
+
+    .wordPrice{
+        @include merienda7001420;
+    }
+
+    .value{
+        @include merienda4002435;
+    }
+}

@@ -1,0 +1,27 @@
+@import '../../../style/fonts.scss';
+
+.footerWrapper{
+    padding: 30px 0 20px 0;
+
+    .navLink{
+        color: black;
+        text-shadow: none;
+    }
+
+    .logo{
+        transform: translate(0, 0);
+    }
+
+    .navMenu{
+        justify-content: center;
+    }
+
+    .nav{
+        margin-bottom: 30px;
+    }
+
+    .coffeeBlack{
+        display: block;
+        margin: 0 auto;
+    }
+}
